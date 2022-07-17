@@ -64,7 +64,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d2d93d",endColorstr="#ffffff",GradientType=1);
   border-bottom: 5px solid #b5f2f2;
   font-family: normal normal 18px quicksand;
-  color: red;
+  color: rgb(255, 153, 0);
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 6px; }
@@ -182,7 +182,7 @@ article {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d2d93d",endColorstr="#ffffff",GradientType=1);
   border-bottom: 5px solid #b5f2f2;
   font-family: normal normal 18px quicksand;
-  color: red;
+  color: rgb(255, 153, 0);
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 6px; }
@@ -228,7 +228,7 @@ article {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d2d93d",endColorstr="#ffffff",GradientType=1);
   border-bottom: 5px solid #b5f2f2;
   font-family: normal normal 18px quicksand;
-  color: red;
+  color: rgb(255, 153, 0);
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 6px; }
