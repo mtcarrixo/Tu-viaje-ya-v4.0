@@ -1,0 +1,22 @@
+.m{
+    &-inicio{
+        
+            background-image: url(https://infolibros.org/wp-content/uploads/2021/07/Libros-de-Aviones.jpg?ezimgfmt=ng%3Awebp%2Fngcb33%2Frs%3Adevice%2Frscb33-1);
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            @include tamano;
+            padding: 10px ;
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 2px;
+            
+    }
+}
+
+.card-header, .card-footer{
+    @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+    font-family: 'Ibarra Real Nova', serif;
+    color: red;
+    text-decoration: none;
+}

@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&family=Roboto:ital,wght@1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+body::-webkit-scrollbar {
+  width: 10px; }
+
+body::-webkit-scrollbar-thumb {
+  background-color: orange;
+  border-radius: 5px; }
+
+body {
+  background: #707eff;
+  background: -moz-linear-gradient(90deg, #707eff 0%, #5db0ff 25%, #96f0fb 50%, #5db0ff 75%, #707eff 100%);
+  background: -webkit-linear-gradient(90deg, #707eff 0%, #5db0ff 25%, #96f0fb 50%, #5db0ff 75%, #707eff 100%);
+  background: linear-gradient(90deg, #707eff 0%, #5db0ff 25%, #96f0fb 50%, #5db0ff 75%, #707eff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#707eff",endColorstr="#707eff",GradientType=1); }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.navbar {
+  background-color: #1ca7d1; }
+  .navbar-nav {
+    margin-bottom: 2px; }
+
+.carousel-inner img {
+  max-height: 400px;
+  width: 100%; }
+
+.cuba {
+  font-family: 'Ibarra Real Nova', serif;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase; }
+
+.ecu {
+  font-family: 'Ibarra Real Nova', serif;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase; }
+
+.ru {
+  font-family: 'Ibarra Real Nova', serif;
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase; }
+
+.ofertas {
+  background: #d2d93d;
+  background: -moz-linear-gradient(353deg, #d2d93d 17%, #2aafdb 52%, white 87%);
+  background: -webkit-linear-gradient(353deg, #d2d93d 17%, #2aafdb 52%, white 87%);
+  background: linear-gradient(353deg, #d2d93d 17%, #2aafdb 52%, white 87%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d2d93d",endColorstr="#ffffff",GradientType=1);
+  border-bottom: 5px solid #b5f2f2;
+  font-family: normal normal 18px quicksand;
+  color: red;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 6px; }
+  .ofertas-content {
+    background: #97e597;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 10px; }
+  .ofertas-content {
+    grid-column: span 4;
+    justify-content: center; }
+
+article {
+  padding: 50px;
+  margin-top: 20px;
+  border-radius: 25px; }
+  article h1, article p {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    max-width: 900px; }
+
+.maldivas {
+  background-image: url(https://cdn2.civitatis.com/maldivas/maldivas/guia/precios.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px; }
+
+.tmal {
+  font-family: 'Ibarra Real Nova', serif;
+  color: white;
+  text-decoration: none;
+  font-size: 20px; }
+
+.corea {
+  background-image: url(https://www.kiwi.com/stories/wp-content/uploads/2022/05/south-korea-guide-daegu-panorama-tower_hero-1920x550.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px; }
+
+.tcor {
+  font-family: 'Ibarra Real Nova', serif;
+  color: black;
+  text-decoration: none;
+  font-size: 20px; }
+
+.bariloche {
+  background-image: url(https://cdn.getyourguide.com/img/location/5d147ae8c6705.jpeg/99.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px; }
+
+.tbar {
+  font-family: 'Ibarra Real Nova', serif;
+  color: black;
+  text-decoration: none;
+  font-size: 20px; }
+
+.redes {
+  margin-top: 1rem;
+  height: 100px; }
+  .redes-iconos a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-size: 30px; }
+    .redes-iconos a i:hover {
+      color: chartreuse;
+      cursor: pointer; }
+
+.sfooter {
+  height: 25px;
+  background: #5f0b0b; }
+  .sfooter h4 {
+    font-size: 17px;
+    color: black;
+    text-align: center; }
+
+.contactow {
+  width: 3em;
+  height: 3em;
+  position: fixed;
+  right: 5px;
+  bottom: 7px; }
+
+.conocenos {
+  background: #d2d93d;
+  background: -moz-linear-gradient(353deg, #d2d93d 17%, #2aafdb 52%, white 87%);
+  background: -webkit-linear-gradient(353deg, #d2d93d 17%, #2aafdb 52%, white 87%);
+  background: linear-gradient(353deg, #d2d93d 17%, #2aafdb 52%, white 87%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d2d93d",endColorstr="#ffffff",GradientType=1);
+  border-bottom: 5px solid #b5f2f2;
+  font-family: normal normal 18px quicksand;
+  color: red;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 6px; }
+
+.form {
+  display: flex;
+  justify-content: center;
+  border: 2px brown double;
+  border-radius: 10px;
+  margin: 20px;
+  background: #e0e2bd;
+  background: -moz-linear-gradient(353deg, #e0e2bd 13%, #6a797e 47%, white 87%);
+  background: -webkit-linear-gradient(353deg, #e0e2bd 13%, #6a797e 47%, white 87%);
+  background: linear-gradient(353deg, #e0e2bd 13%, #6a797e 47%, white 87%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e0e2bd",endColorstr="#ffffff",GradientType=1); }
+
+.contacto__form {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 10px;
+  background: #e0e2bd;
+  background: -moz-linear-gradient(353deg, #e0e2bd 13%, #6a797e 47%, white 87%);
+  background: -webkit-linear-gradient(353deg, #e0e2bd 13%, #6a797e 47%, white 87%);
+  background: linear-gradient(353deg, #e0e2bd 13%, #6a797e 47%, white 87%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e0e2bd",endColorstr="#ffffff",GradientType=1); }
+
+.contactow {
+  width: 3em;
+  height: 3em;
+  position: fixed;
+  right: 5px;
+  bottom: 7px; }
+
+@media screen and (max-width: 750px) {
+  .row {
+    flex-direction: column; } }
+
+.linea {
+  background: #d2d93d;
+  background: -moz-linear-gradient(353deg, #d2d93d 17%, #2aafdb 52%, white 87%);
+  background: -webkit-linear-gradient(353deg, #d2d93d 17%, #2aafdb 52%, white 87%);
+  background: linear-gradient(353deg, #d2d93d 17%, #2aafdb 52%, white 87%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d2d93d",endColorstr="#ffffff",GradientType=1);
+  border-bottom: 5px solid #b5f2f2;
+  font-family: normal normal 18px quicksand;
+  color: red;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 6px; }
+  .linea-content {
+    grid-column: span 10;
+    justify-content: center; }
+
+article {
+  padding: 50px;
+  margin-top: 20px;
+  border-radius: 25px; }
+  article h1, article p {
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    max-width: 900px;
+    text-align: center;
+    display: flex;
+    align-items: center; }
+
+.turkish {
+  background-image: url(https://actualidadaeroespacial.com/wp-content/uploads/2022/05/Un-A350-900-de-Turkish-Airlines-230522.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px; }
+  .turkish .saber {
+    border: 2px black solid;
+    border-radius: 50px;
+    background-color: #87c3fc;
+    width: 80rem; }
+
+.gol {
+  background-image: url(https://newpap.s3.us-west-2.amazonaws.com/wp-content/uploads/2022/05/18192616/gol-b737max.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px; }
+  .gol .saber {
+    border: 2px black solid;
+    border-radius: 50px;
+    background-color: #87c3fc;
+    width: 80rem; }
+
+.aerolineas {
+  background-image: url(https://ichef.bbci.co.uk/news/640/cpsprodpb/9B2D/production/_92052793_avion1.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 20px; }
+  .aerolineas .saber {
+    border: 2px black solid;
+    border-radius: 50px;
+    background-color: #87c3fc;
+    width: 80rem; }
+
+.botones {
+  display: flex;
+  align-items: center; }
+
+p {
+  font-family: 'Ibarra Real Nova', serif;
+  text-decoration: none; }
+
+.m-inicio {
+  background-image: url(https://infolibros.org/wp-content/uploads/2021/07/Libros-de-Aviones.jpg?ezimgfmt=ng%3Awebp%2Fngcb33%2Frs%3Adevice%2Frscb33-1);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 2px; }
+
+.card-header, .card-footer {
+  font-family: 'Ibarra Real Nova', serif;
+  color: red;
+  text-decoration: none; }

@@ -1,0 +1,103 @@
+
+.linea {
+    background: rgb(210,217,61);
+    background: -moz-linear-gradient(353deg, rgba(210,217,61,1) 17%, rgba(42,175,219,1) 52%, rgba(255,255,255,1) 87%);
+    background: -webkit-linear-gradient(353deg, rgba(210,217,61,1) 17%, rgba(42,175,219,1) 52%, rgba(255,255,255,1) 87%);
+    background: linear-gradient(353deg, rgba(210,217,61,1) 17%, rgba(42,175,219,1) 52%, rgba(255,255,255,1) 87%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d2d93d",endColorstr="#ffffff",GradientType=1);
+    border-bottom: 5px solid #b5f2f2;
+    font-family: normal normal 18px quicksand;
+    color: map-get($colores, "rojo");
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 6px;
+
+    &-content {
+        grid-column: span 10;
+        justify-content: center;
+
+    }
+}
+
+    article {
+        padding: 50px;
+        margin-top: 20px;
+        border-radius: 25px;
+
+        h1 {
+            padding: 10px;
+            font-size: 20px;
+            color: rgb(0, 0, 0);
+            max-width: 900px;
+            text-align: center;
+            display: flex;
+            align-items: center
+        }
+
+        p {
+            @extend h1;
+        }
+
+    }
+
+
+
+.turkish {
+    background-image: url(https://actualidadaeroespacial.com/wp-content/uploads/2022/05/Un-A350-900-de-Turkish-Airlines-230522.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    @include tamano;
+    padding: 10px ;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    .saber{
+        @include saber
+
+    }
+
+}
+
+.gol {
+    background-image: url(https://newpap.s3.us-west-2.amazonaws.com/wp-content/uploads/2022/05/18192616/gol-b737max.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    @include tamano;
+    padding: 10px ;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+
+    .saber{
+        @include saber
+    }
+}
+
+.aerolineas {
+    background-image: url(https://ichef.bbci.co.uk/news/640/cpsprodpb/9B2D/production/_92052793_avion1.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    @include tamano;
+    padding: 10px ;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    
+    .saber{
+        @include saber
+    }
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+}
+
+p{
+    @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+    font-family: 'Ibarra Real Nova', serif;
+    text-decoration: none;
+}

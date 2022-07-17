@@ -1,0 +1,52 @@
+body::-webkit-scrollbar{
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: orange;
+    border-radius: 5px;
+}
+body{
+    background: rgb(112,126,255);
+    background: -moz-linear-gradient(90deg, rgba(112,126,255,1) 0%, rgba(93,176,255,1) 25%, rgba(150,240,251,1) 50%, rgba(93,176,255,1) 75%, rgba(112,126,255,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(112,126,255,1) 0%, rgba(93,176,255,1) 25%, #96f0fb 50%, rgba(93,176,255,1) 75%, rgba(112,126,255,1) 100%);
+    background: linear-gradient(90deg, rgba(112,126,255,1) 0%, rgba(93,176,255,1) 25%, rgba(150,240,251,1) 50%, rgba(93,176,255,1) 75%, rgba(112,126,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#707eff",endColorstr="#707eff",GradientType=1);
+}
+
+@mixin tamano {
+    height:100%;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+@mixin saber{
+    border: 2px black solid;
+    border-radius: 50px;
+    background-color: rgb(135, 195, 252);
+    width: 80rem;   
+}
+
+@mixin fondoform {
+    background: rgb(224,226,189);
+	background: -moz-linear-gradient(353deg, rgba(224,226,189,1) 13%, rgba(106,121,126,1) 47%, rgba(255,255,255,1) 87%);
+	background: -webkit-linear-gradient(353deg, rgba(224,226,189,1) 13%, rgba(106,121,126,1) 47%, rgba(255,255,255,1) 87%);
+	background: linear-gradient(353deg, rgba(224,226,189,1) 13%, rgba(106,121,126,1) 47%, rgba(255,255,255,1) 87%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e0e2bd",endColorstr="#ffffff",GradientType=1);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&family=Roboto:ital,wght@1,500&display=swap');
+
+@import "./parciales/index/reset";
+@import "./parciales/index/variables";
+@import "./parciales/index/header";
+@import "./parciales/index/carousel";
+@import "./parciales/index/ofertas";
+@import "./parciales/index/redes";
+@import "./parciales/index/footer";
+@import "./parciales/index/wppflot";
+@import "./parciales/sobrenosotros/info";
+@import "./parciales/querys.scss";
+@import "./parciales/Vuelos/vuelos";
+@import "./parciales/inicio.scss/inicio";

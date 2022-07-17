@@ -1,0 +1,106 @@
+.ofertas {
+    background: rgb(210,217,61);
+    background: -moz-linear-gradient(353deg, rgba(210,217,61,1) 17%, rgba(42,175,219,1) 52%, rgba(255,255,255,1) 87%);
+    background: -webkit-linear-gradient(353deg, rgba(210,217,61,1) 17%, rgba(42,175,219,1) 52%, rgba(255,255,255,1) 87%);
+    background: linear-gradient(353deg, rgba(210,217,61,1) 17%, rgba(42,175,219,1) 52%, rgba(255,255,255,1) 87%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d2d93d",endColorstr="#ffffff",GradientType=1);
+    border-bottom: 5px solid #b5f2f2;
+    font-family: normal normal 18px quicksand;
+    color: map-get($colores, "rojo");
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 6px;
+
+
+    &-content {
+        background: rgb(151, 229, 151);
+        padding: 30px;
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 10px;
+    }
+
+    &-content {
+        grid-column: span 4;
+        justify-content: center;
+
+    }
+}
+
+    article {
+        padding: 50px;
+        margin-top: 20px;
+        border-radius: 25px;
+
+        h1 {
+            padding: 10px;
+            font-size: 20px;
+            color: white;
+            max-width: 900px;
+        }
+
+        p {
+            @extend h1;
+        }
+
+    }
+
+
+
+.maldivas {
+    background-image: url(https://cdn2.civitatis.com/maldivas/maldivas/guia/precios.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    @include tamano;
+    padding: 10px ;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.tmal{
+    @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+    font-family: 'Ibarra Real Nova', serif;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+.corea {
+    background-image: url(https://www.kiwi.com/stories/wp-content/uploads/2022/05/south-korea-guide-daegu-panorama-tower_hero-1920x550.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    @include tamano;
+    padding: 10px ;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.tcor{
+    @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+    font-family: 'Ibarra Real Nova', serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.bariloche {
+    background-image: url(https://cdn.getyourguide.com/img/location/5d147ae8c6705.jpeg/99.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    @include tamano;
+    padding: 10px ;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.tbar{
+    @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+    font-family: 'Ibarra Real Nova', serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 20px;
+}

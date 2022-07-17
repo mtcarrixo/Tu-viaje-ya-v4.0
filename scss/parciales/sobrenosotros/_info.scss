@@ -1,0 +1,36 @@
+.conocenos{
+	background: rgb(210,217,61);
+    background: -moz-linear-gradient(353deg, rgba(210,217,61,1) 17%, rgba(42,175,219,1) 52%, rgba(255,255,255,1) 87%);
+    background: -webkit-linear-gradient(353deg, rgba(210,217,61,1) 17%, rgba(42,175,219,1) 52%, rgba(255,255,255,1) 87%);
+    background: linear-gradient(353deg, rgba(210,217,61,1) 17%, rgba(42,175,219,1) 52%, rgba(255,255,255,1) 87%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d2d93d",endColorstr="#ffffff",GradientType=1);
+    border-bottom: 5px solid #b5f2f2;
+    font-family: normal normal 18px quicksand;
+    color: map-get($colores, "rojo");
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 6px;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+	border: 2px brown double;
+	border-radius: 10px;
+	margin: 20px;
+	@include fondoform;
+}
+.contacto__form {
+	display: flex;
+	border: 2px solid black;
+	border-radius: 10px;
+	@include fondoform;
+}
+.contactow {
+	width: 3em;
+	height: 3em;
+	position: fixed;
+	right: 5px;
+	bottom: 7px;
+}
+
